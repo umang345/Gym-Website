@@ -1,5 +1,29 @@
 body{
+    color: white;    
     margin: 0px;
     padding: 0px;
     background-image: url('/img/bg.jpg');
+}
+
+.left{
+    display: inline-block;
+    border: 2px solid red;
+    position: absolute;
+    top: 20px;
+    left: 34px;
+}
+
+.mid{
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+    border: 2px solid green;
+}
+
+.right{
+    display: inline-block;
+    border: 2px solid yellow;
+    position: absolute;
+    top: 20px;
+    right: 34px;
 }
