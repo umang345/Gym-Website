@@ -11,7 +11,7 @@ body{
     border: 2px solid red;
     position: absolute;
     top: 20px;
-    left: 34px;
+    left: 60px;
 }
 .left img{
     width: 136px;
@@ -71,4 +71,33 @@ body{
 }
 .btn:hover{
     background-color: rgb(31,30,30);
+}
+.container{
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+.form-group input{
+    font-family:  'Baloo Bhai 2', cursive;
+    text-align: center;
+    display: block;
+    width: 450px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.container button{
+    display: block;
+    width: 82%;
+    margin: 20px auto;
+    font-size: 20px;
 }
